@@ -36,3 +36,19 @@ OUTPUT_FILE = (
     OUTPUT_DIR
     / "trajectory_diagnostics.csv"
 )
+
+MODEL_DIR = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "models"
+)
+
+PREDICTION_DIR = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "predictions"
+)
+
+TRAJECTORY_DIR = PROCESSED_DIR / "trajectory"
